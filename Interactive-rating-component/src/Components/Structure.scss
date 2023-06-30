@@ -1,0 +1,88 @@
+$color-orange: hsl(25, 97%, 53%);
+$font-color-submit: hsl(0, 0%, 100%);
+$color-boton: hsl(217, 12%, 63%);
+$font-color-p: hsl(216, 12%, 54%);
+$color-container: hsl(213, 19%, 18%);
+$color-body: hsl(216, 12%, 8%);
+$font-size-p: 15px;
+$font-size-h1: 30px;
+
+*{  font-family: 'Kumbh Sans', sans-serif;
+    font-family: 'Outfit', sans-serif;
+    padding: 0;
+    margin: 0;
+  }
+
+body{
+    background-color: $color-body;
+    display: flex;
+    justify-content: center;
+  .container{
+    border-radius: 16px;
+    padding: 35px;
+    max-width: 280px;
+    max-height: 750px;
+    background-color: $color-container;
+    .container__text{
+        h2{
+            color: $color-orange;
+            font-size: 40px;
+        }
+        h1{
+            color: $font-color-submit;
+            font-size: $font-size-h1;
+        }
+        p{
+            color: $font-color-p;
+            font-size: $font-size-p;
+        }
+    }
+    .container__note{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-content: space-between;
+       
+        div{background-color: $color-body;
+            width: 50px;
+            height: 50px ;
+            border-radius: 50px;
+            display: flex;
+            justify-content: center;
+            align-content: center; 
+            margin: 4px;
+            padding: 0px;
+            
+            button{
+                background-color: $color-body;
+                width: 22px;
+                height: auto;
+                margin: 0;
+                padding: 0;
+                color: $font-color-submit;
+            }
+        }
+        button{
+            color: $font-color-submit;
+            background-color: $color-body;
+            
+          }
+    }
+    .container__button{
+        display: flex;
+        justify-content: center;
+        
+        button{
+            padding: 2px;
+            width: 300px;
+            height: 40px;
+            color: $font-color-submit;
+            background-color: $color-orange;
+        }
+    }
+
+  }}
+  .footer{
+    color: $font-color-submit;
+    font-size: 22px;
+  }

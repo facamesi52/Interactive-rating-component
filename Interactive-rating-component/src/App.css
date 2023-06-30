@@ -1,0 +1,63 @@
+* {
+  font-family: 'Kumbh Sans', sans-serif;
+  font-family: 'Outfit', sans-serif;
+  padding: 0;
+  margin: 0; }
+
+body {
+  background-color: #121417;
+  display: flex;
+  justify-content: center; }
+  body .container {
+    border-radius: 16px;
+    padding: 35px;
+    max-width: 280px;
+    max-height: 750px;
+    background-color: #252d37; }
+    body .container .container__text h2 {
+      color: #fb7413;
+      font-size: 40px; }
+    body .container .container__text h1 {
+      color: white;
+      font-size: 30px; }
+    body .container .container__text p {
+      color: #7c8798;
+      font-size: 15px; }
+    body .container .container__note {
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-content: space-between; }
+      body .container .container__note div {
+        background-color: #121417;
+        width: 50px;
+        height: 50px;
+        border-radius: 50px;
+        display: flex;
+        justify-content: center;
+        align-content: center;
+        margin: 4px;
+        padding: 0px; }
+        body .container .container__note div button {
+          background-color: #121417;
+          width: 22px;
+          height: auto;
+          margin: 0;
+          padding: 0;
+          color: white; }
+      body .container .container__note button {
+        color: white;
+        background-color: #121417; }
+    body .container .container__button {
+      display: flex;
+      justify-content: center; }
+      body .container .container__button button {
+        padding: 2px;
+        width: 300px;
+        height: 40px;
+        color: white;
+        background-color: #fb7413; }
+
+.footer {
+  color: white;
+  font-size: 22px; }
